@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<android.support.v4.view.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewpager_Main">
+    
+</android.support.v4.view.ViewPager>
+<Button
+    android:layout_width="150.0dp"
+    android:layout_height="43.0dp"
+    android:layout_gravity="bottom|center"
+    android:layout_marginBottom="15.0dp"
+    android:paddingLeft="20.0dp"
+    android:paddingRight="20.0dp"
+    android:visibility="gone"
+    android:text="立即体验"
+    android:textColor="@color/red"
+    android:id="@+id/btn_start"
+    >
+    
+</Button>
+</FrameLayout>
